@@ -1,4 +1,18 @@
-# 完整的机器学习流程示例
+
+
+
+
+import pandas as pd
+import json
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+
+from data_collector import DataCollector
+from data_prepare import DataPreparer
+from model_training import ModelTrainer
+from model_evaluate import ModelEvaluator
+from model_deploy import ModelDeployer
+
 class MLProjectPipeline:
     def __init__(self):
         self.data_collector = DataCollector()
