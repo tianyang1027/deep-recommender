@@ -2,6 +2,9 @@
 import pickle
 import json
 from datetime import datetime
+from sklearn.metrics import accuracy_score
+    
+
 
 class ModelDeployer:
     def __init__(self):

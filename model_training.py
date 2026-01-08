@@ -3,6 +3,7 @@ from sklearn.linear_model import LogisticRegression, LinearRegression
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.svm import SVC, SVR
 from sklearn.metrics import accuracy_score, mean_squared_error, classification_report
+import numpy as np
 
 class ModelTrainer:
     def __init__(self):
